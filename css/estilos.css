@@ -1,0 +1,196 @@
+body{
+  font-family: Dancing Script;
+  color: white;
+  margin: 0px;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  padding:10px 10px 10px 10px;
+  border-radius: 10px 10px 0px 0px;
+  background: #5b7989;
+  box-sizing: border-box;
+  animation: animation0 3s;
+}
+header h1{
+  display: inline;
+  width:50%;
+	text-align: left;
+  text-shadow: 2px 2px #02010a;
+}
+header p{
+  margin: 0px 5px 0px 5px;
+  float: right;
+  display: inline;
+	text-align: right;
+}
+#contenedor{
+  width: 100%;
+  background-color: yellow;
+}
+.central{
+  padding:10px 0px 10px 0px;
+  width: 100%;
+  background-color: #82c3a6;
+}
+.central img{
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+.seccion{
+  margin: auto;
+  display: flex;
+  width: 100%;
+  padding:10px 0px 10px 0px;
+  background-color: #d5c75f;
+}
+.imagen2 img {
+  margin: auto;
+  width: 105%;
+  transform: rotate() 1s;
+}
+
+.imagen2 img:hover {
+  margin: auto;
+  width: 105%;
+  animation: animation1 2s;
+}
+
+@-webkit-keyframes animation1{
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(10deg);
+  }
+}
+
+
+.imagen3 img {
+  margin: auto;
+  width: 68%;
+}
+
+.imagen3 img:hover {
+  margin: auto;
+  width: 68%;
+  animation: animation2 2s;
+}
+
+@-webkit-keyframes animation2{
+  from{
+    transform: (0px,0px);
+  }
+  to{
+    transform: translate(20px,-5px);
+  }
+}
+
+figcaption{
+  color: black;
+}
+footer{
+  width: 100%;
+  padding:10px 10px 10px 10px;
+  border-radius: 0px 0px 10px 10px;
+  margin: auto;
+  display: flex;
+  background-color: #C6d5c5;
+  color: black;
+  box-sizing: border-box;
+}
+.contacto{
+  width: 25%;
+}
+.terminos{
+  width: 25%;
+}
+.redes{
+  width: 25%;
+}
+.derechos{
+  width: 25%;
+}
+.contenedorp {
+  margin: 0 auto;
+  display: block;
+  align-content: center;
+  width: 100%;
+  padding:10px 0px 10px 0px;
+  background-color: #d5c75f;
+  box-sizing: border-box;
+}
+.top{
+  padding:10px 0px 10px 0px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
+.top img{
+  width: 85%;
+  margin: auto;
+}
+.down {
+  padding:10px 0px 10px 0px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  }
+.down img{
+  width: 85%;
+  margin: auto;
+  }
+
+#imagen1 img{
+  margin: auto;
+	-webkit-filter:blur(10px);
+	filter:blur(10px);
+}
+
+#imagen2 img {
+  margin: auto;
+	-webkit-filter:grayscale(100%);
+	filter:grayscale(100%);
+}
+
+#imagen3 img {
+  margin: auto;
+  -webkit-filter:sepia(90%);
+  filter:sepia(90%);
+
+}
+
+#imagen4 img {
+  margin: auto;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+#imagen5 img {
+  margin: auto;
+
+}
+
+#imagen6 img{
+  margin: auto;
+  -webkit-filter:grayscale(100%);
+  filter:grayscale(100%);
+}
+
+
+@-webkit-keyframes animation0{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
