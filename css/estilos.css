@@ -23,6 +23,7 @@ header p{
   float: right;
   display: inline;
 	text-align: right;
+  word-spacing: 0.75em;
 }
 #contenedor{
   width: 100%;
@@ -193,4 +194,91 @@ footer{
   100%{
     margin-top: 0%;
   }
+}
+
+@media (max-width: 900px) {
+  header{
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    align-content: center;
+  }
+
+  header h1{
+    display: block;
+    width:100%;
+  	text-align: center;
+    text-shadow: 2px 2px #02010a;
+  }
+
+  header p{
+    width: 10%;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    word-spacing: 0.75em;
+  }
+
+  .contenedorp {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 100%;
+    padding:10px 0px 10px 0px;
+    background-color: #d5c75f;
+    box-sizing: border-box;
+  }
+  .top{
+    padding:10px 0px 10px 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+  }
+  .top img{
+    width: 85%;
+    margin: auto;
+  }
+  .down {
+    padding:10px 0px 10px 0px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    }
+  .down img{
+    width: 85%;
+    margin: auto;
+    }
+
+    footer{
+      width: 100%;
+      padding:10px 10px 10px 10px;
+      border-radius: 0px 0px 10px 10px;
+      margin: auto;
+      display: flex;
+      flex-direction: column;
+      background-color: #C6d5c5;
+      color: black;
+      box-sizing: border-box;
+    }
+    .contacto{
+      width: 100%;
+    }
+    .terminos{
+      width: 100%;
+    }
+    .redes{
+      width: 100%;
+    }
+    .derechos{
+      width: 100%;
+    }
 }
